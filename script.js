@@ -113,7 +113,7 @@ function showPrompt(prompt) {
 
     // Remove previous options
     answersContainer.innerHTML = "";
-
+    prompt.options.add("Ignore"); 
     // Create buttons based on the current prompt
     prompt.options.forEach(option => {
 
