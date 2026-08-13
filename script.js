@@ -71,7 +71,7 @@ const prompts = [
     {
         time: 35,
         triggered: false,
-        question: "Do you want to drink water now?",
+        question: "Do you want to drink water?",
         options: ["Yes", "No", "Not sure", "Ignore"]
     }
 ];
