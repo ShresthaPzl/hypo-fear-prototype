@@ -25,21 +25,21 @@ const prompts = [
         time: 3,
         triggered: false,
         question: "Have you packed hypo food?",
-        options: ["Yes", "No", "Not sure"]
+        options: ["Yes", "No", "Not sure", "Ignore"]
     },
 
     {
         time: 4,
         triggered: false,
         question: "Did you eat before setting off?",
-        options: ["Yes", "No", "Not sure"]
+        options: ["Yes", "No", "Not sure", "Ignore"]
     },
 
     {
         time: 12,
         triggered: false,
         question: "Do you feel like sitting? Do you have insulin with you?",
-        options: ["Yes", "No", "Not sure"]
+        options: ["Yes", "No", "Not sure", "Ignore"]
     },
 
     {
@@ -50,7 +50,8 @@ const prompts = [
             "Comfortable",
             "A little anxious",
             "Very anxious",
-            "Not sure"
+            "Not sure",
+            "Ignore"
         ]
     },
 
@@ -62,15 +63,16 @@ const prompts = [
             "Stable",
             "Rising",
             "Falling",
-            "Not sure"
+            "Not sure",
+            "Ignore"
         ]
     },
 
     {
         time: 35,
         triggered: false,
-        question: "Do you have enough water with you?",
-        options: ["Yes", "No", "Not sure"]
+        question: "Do you want to drink water now?",
+        options: ["Yes", "No", "Not sure", "Ignore"]
     }
 ];
 
