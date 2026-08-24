@@ -167,7 +167,7 @@ const scenarios = {
     presentation: {
 
         title: "Oral Presentation Scenario",
-        video: "videos/presentation (1) (1) (1).mp4",
+        video: "videos/presentation.mp4",
 
         prompts: [
 
@@ -581,22 +581,62 @@ const scenarios = {
     sickday: {
 
         title: "Sick Day Management Scenario",
-        video: "videos/sickday.mp4",
+        video: "videos/sickdaymanagement.mp4",
 
         prompts: [
 
             {
                 id: "S01",
-                time: 5,
+                time: 24,
 
                 question:
-                    "How confident do you feel managing your diabetes while you are unwell?",
+                    "What's the first thing to do?",
 
                 options: [
-                    "Very confident",
-                    "Somewhat confident",
-                    "Slightly unsure",
-                    "Very unsure"
+                   "Push through and go to work anyway",
+                   "Message your manager and start your sick day plan",
+                   "Ignore it, it'll probably pass"
+                ]
+            },
+            {
+                id: "S02",
+                time: 50,
+                question:
+                    "do feel anxious about asking your boss for sick leave at short notice?",
+                options: [
+                    "Yes",
+                    "No",
+                    "Ignore"
+                ]
+            },
+            {
+                id: "S03",
+                time: 84,
+                question:"Manager calling; are you scared of  confrontion from your manager?",
+                options: [
+                       "Yes",
+                       "No",
+                       "Ignore"
+                ]
+            },
+            {
+                id: "S04",
+                time: 90,
+                question:"You're feeling dizzy, what's the best next step?",
+                options: [
+                       "Grab the chocolate, it has sugar in it",
+                       "Grab the water",
+                       "Check your blood glucose first, then treat with a fast-acting carb like juice or a regular soft drink if you have one"
+                ]
+            },
+            {
+                id: "S05",
+                time: 106,
+                question:"Should you change your dose yourself because you're not feeling okay?",
+                options: [
+                       "Yes, take more just in case",
+                       "Yes, skip it since you're not eating",
+                       "No, follow your personal sick day action plan or call your health professional"
                 ]
             }
 
